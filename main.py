@@ -3,8 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pandas as pd
 import io
-import fitz                      
-import pytesseract               
+import fitz                                     
 from PIL import Image            
 import google.generativeai as genai
 from google.generativeai import GenerativeModel  # type: ignore
